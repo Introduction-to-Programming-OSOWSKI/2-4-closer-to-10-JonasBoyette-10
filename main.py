@@ -1,4 +1,4 @@
-def Close10(x, y):
+def close10(x, y):
 
     if abs(10-x) < abs(10-y):
         return x
@@ -9,4 +9,4 @@ def Close10(x, y):
     else:
         return 0
 
-print(Close10(9,15))
+print(close10(9,15))
